@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/PauseMenuStyles.uss?fileID=7433441132597879392&amp;guid=25065f0a4aada95439d5f7ebafa3fc5a&amp;type=3#PauseMenuStyles" />
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; align-items: stretch;">
+        <ui:VisualElement name="BannerRow" class="panel-background" style="flex-grow: 1; flex-direction: row;">
+            <ui:VisualElement name="BannerLeft" style="flex-grow: 1; height: auto;" />
+            <ui:VisualElement name="BannerMiddle" style="flex-grow: 0; height: 100%; flex-direction: column; justify-content: space-between; align-self: auto; align-items: center; min-width: 60%; min-height: 60%; max-width: 60%;">
+                <ui:VisualElement name="Menu" style="flex-grow: 1; margin-top: 5%; margin-right: 5%; margin-bottom: 5%; margin-left: 5%; flex-basis: auto; width: 100%; align-items: center; height: auto;">
+                    <ui:VisualElement name="TitleContainer" class="label-Pause-Title" style="flex-grow: 1;">
+                        <ui:Label text="Paused" name="Label" class="label-Title label-Pause-Title" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="MenuButtons" style="flex-grow: 1; align-items: stretch; justify-content: center; flex-direction: column; min-width: 30%; max-height: 30%;">
+                        <ui:Button text="Resume" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Resume" tabindex="1" class="button-pause-menu" />
+                        <ui:Button text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Settings" class="button-pause-menu" />
+                        <ui:Button text="Title Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Quit" class="button-pause-menu" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="BannerRight" style="flex-grow: 1; height: auto;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Row" style="flex-grow: 1; flex-direction: row; height: auto; max-height: 5%; justify-content: space-evenly; margin-bottom: 100px;">
+            <ui:Button text="Enter Game End State" name="EndStateButton" class="debug-buttons" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

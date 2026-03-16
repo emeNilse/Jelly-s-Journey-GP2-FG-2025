@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/EndMenuStyles.uss?fileID=7433441132597879392&amp;guid=03bfaa59ecff12946bbb1188a744e678&amp;type=3#EndMenuStyles" />
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; justify-content: center; flex-direction: column; -unity-background-image-tint-color: rgb(191, 170, 238);">
+        <ui:VisualElement name="BannerRow" class="panel-background" style="height: 100%; align-items: center; background-color: rgba(68, 24, 60, 0);">
+            <ui:VisualElement name="BannerLeft" style="flex-grow: 0; height: 80%; flex-shrink: 0; justify-content: flex-end; width: 20%;">
+                <ui:Button text="Credits" name="Credits" class="button-end-menu" />
+            </ui:VisualElement>
+            <ui:VisualElement name="BannerMiddle" style="flex-grow: 1; height: 100%; flex-direction: column; justify-content: flex-start; align-self: auto; align-items: center; flex-wrap: nowrap; min-width: auto; width: 60%;">
+                <ui:VisualElement name="Menu" style="flex-grow: 1; flex-basis: auto; width: 100%; align-items: center; height: 80%; flex-wrap: nowrap; justify-content: center;">
+                    <ui:VisualElement name="TitleContainer" style="flex-grow: 0; max-height: none; min-height: 30%; margin-bottom: 0; padding-bottom: 108px;">
+                        <ui:Label text="You&apos;ve Been" class="label-end-menu-title" />
+                        <ui:Label text="Caught" class="label-end-menu-title" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="MenuButtons" style="flex-grow: 0; align-items: stretch; justify-content: center; flex-direction: column; min-width: 30%; max-height: none; min-height: auto;">
+                        <ui:Button text="Play Again" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Restart" tabindex="1" enable-rich-text="true" class="button-end-menu" />
+                        <ui:Button text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Settings" class="button-end-menu" />
+                        <ui:Button text="Main Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" name="EndRun" class="button-end-menu" />
+                        <ui:Button text="ExitGame" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ExitGame" class="button-end-menu" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="BannerRight" style="flex-grow: 0; height: auto; flex-shrink: 0; width: 20%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,12 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Template name="TitleMenu" src="project://database/Assets/UI Toolkit/Panels/TitleMenu.uxml?fileID=9197481963319205126&amp;guid=a6f6e9b9b1932e547a94de811b69dd2b&amp;type=3#TitleMenu" />
+    <engine:Template name="PauseMenu" src="project://database/Assets/UI Toolkit/Panels/PauseMenu.uxml?fileID=9197481963319205126&amp;guid=627c88cb4bf1e8a4d90db7ebc818d032&amp;type=3#PauseMenu" />
+    <engine:Template name="SettingsMenu" src="project://database/Assets/UI Toolkit/Panels/SettingsMenu.uxml?fileID=9197481963319205126&amp;guid=9e3ffd7b2abe2ca4bbf20200dfe15a35&amp;type=3#SettingsMenu" />
+    <engine:Template name="EndMenu" src="project://database/Assets/UI Toolkit/Panels/EndMenu.uxml?fileID=9197481963319205126&amp;guid=7849cf2c67388a446a2b748155839543&amp;type=3#EndMenu" />
+    <engine:Template name="ControlsHints" src="project://database/Assets/UI Toolkit/Panels/ControlsHints.uxml?fileID=9197481963319205126&amp;guid=f3d12623651100f468942b8e52257496&amp;type=3#ControlsHints" />
+    <engine:Instance template="TitleMenu" name="TitleMenu" style="flex-grow: 1; display: none;" />
+    <engine:Instance template="PauseMenu" name="PauseMenu" style="display: none; flex-grow: 1;" />
+    <engine:Instance template="SettingsMenu" name="SettingsMenu" style="display: none; flex-grow: 1;" />
+    <engine:Instance template="EndMenu" name="EndMenu" style="display: none; flex-grow: 1;" />
+    <engine:Instance template="ControlsHints" name="ControlsUi" style="flex-grow: 1; display: none;" />
+</engine:UXML>

@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8812155148937129173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2945b683493311242bb804f25e27db40, type: 3}
+  m_Name: RoomNode
+  m_EditorClassIdentifier: 
+  Position: {x: 0, y: 0}
+  Guid: 3fcef87f615441b4caacc993a7083d91
+  Room: {fileID: 11400000, guid: c09b3a491cb793840ab8c8f248e036fc, type: 2}
+  LastDropdownIndex: 0
+  OutgoingEdges:
+  - sourcePortName: North
+    destinationGuid: 9d98cc9431dccad40ac622ee36335139
+    destinationPortName: North
+--- !u!114 &-2249816234407169032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2945b683493311242bb804f25e27db40, type: 3}
+  m_Name: RoomNode
+  m_EditorClassIdentifier: 
+  Position: {x: 0, y: 0}
+  Guid: b0aa07e920e71ff4cab0443c66c39ae2
+  Room: {fileID: 0}
+  LastDropdownIndex: 0
+  OutgoingEdges: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77125758eaed7f746893edb8700cd154, type: 3}
+  m_Name: TestRoomGraph
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: 0}
+  nodes:
+  - {fileID: -8812155148937129173}
+  - {fileID: 4980982979330060373}
+  - {fileID: -2249816234407169032}
+--- !u!114 &4980982979330060373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2945b683493311242bb804f25e27db40, type: 3}
+  m_Name: RoomNode
+  m_EditorClassIdentifier: 
+  Position: {x: 285.70667, y: -4}
+  Guid: 9d98cc9431dccad40ac622ee36335139
+  Room: {fileID: 11400000, guid: 66070701d046f37479a55879b7d929fa, type: 2}
+  LastDropdownIndex: 1
+  OutgoingEdges: []

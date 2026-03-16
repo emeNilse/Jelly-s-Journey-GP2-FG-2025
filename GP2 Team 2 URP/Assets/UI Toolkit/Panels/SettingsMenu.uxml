@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Ui/UIToolkit/Styles/SettingsStyles.uss?fileID=7433441132597879392&amp;guid=2c394a91397221b4bbdd66b9ac3f34c9&amp;type=3#SettingsStyles" />
+    <ui:VisualElement name="VisualElement" class="pause-background-image" style="flex-grow: 1; justify-content: center; flex-direction: column; background-size: 119% 119%;">
+        <ui:VisualElement name="MenuRow" class="panel-background">
+            <ui:VisualElement name="MenuLeft" style="flex-grow: 0; height: auto; flex-shrink: 0; width: 20%;" />
+            <ui:VisualElement name="MenuMid" style="flex-grow: 2; height: 100%; flex-direction: column; justify-content: flex-start; align-self: auto; align-items: center;">
+                <ui:VisualElement name="Menu" style="flex-grow: 1; margin-top: 0; margin-right: 0; margin-left: 0; flex-basis: auto; width: 100%; align-items: center; height: auto; padding-top: 5%; padding-bottom: 5%;">
+                    <ui:Label text="Settings" name="Title" class="label-Settings-Title" />
+                    <ui:VisualElement name="VolumeContainer" style="flex-grow: 1; width: 50%;">
+                        <ui:Slider label="SFX Volume" high-value="1" name="SfxSlider" fill="true" class="label-settings-menu slider-settings-menu" />
+                        <ui:Slider label="Music Volume" high-value="1" name="MusicSlider" fill="true" class="label-settings-menu slider-settings-menu" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="PaddingSpace" style="flex-grow: 1; align-items: stretch; justify-content: center; flex-direction: column; min-width: 30%; max-height: none;" />
+                    <ui:Button text="Return" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Return" tabindex="1" class="button-pause-menu" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="MenuRight" style="flex-grow: 0; height: auto; width: 20%; flex-shrink: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Ui/UIToolkit/Styles/MenuStyles.uss?fileID=7433441132597879392&amp;guid=e51448d05d12d7a4abefa37b642705eb&amp;type=3#MenuStyles" />
+    <ui:VisualElement name="Background" class="title-background">
+        <ui:VisualElement name="Sidebar" class="panel-background" style="flex-direction: column; background-color: rgba(70, 25, 62, 0);">
+            <ui:VisualElement name="TitlesContainer" class="titles-Container">
+                <ui:VisualElement name="TitleRow" class="title-row">
+                    <ui:Label text="Title" name="Title" class="label-Title" />
+                </ui:VisualElement>
+                <ui:VisualElement name="SubtitleRow" class="subtitle-row">
+                    <ui:Label tabindex="-1" text="subtitle text" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Title2" enable-rich-text="false" selectable="false" class="label-title-subscript" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="ButtonRow" style="flex-grow: 1; flex-direction: column; width: 60%; align-items: center; justify-content: space-around;">
+                <ui:Button text="Start" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Start" tabindex="1" class="button-menu" />
+                <ui:Button text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Settings" class="button-menu" />
+                <ui:Button text="Quit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Quit" class="button-menu" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

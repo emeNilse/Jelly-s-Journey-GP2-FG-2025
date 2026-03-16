@@ -1,0 +1,124 @@
+.button-menu:hover {
+    color: rgb(121, 0, 255);
+    transition-timing-function: ease-in-out-circ, ease-in-out-circ;
+    transition-duration: 0.5s, 0.5s;
+    background-color: rgba(75, 62, 98, 0);
+    transition-property: rotate, color;
+    rotate: 2deg;
+    -unity-text-outline-color: rgba(48, 0, 255, 0);
+}
+
+.button-menu:active {
+    background-color: rgba(186, 148, 255, 0);
+    color: rgb(255, 93, 255);
+    -unity-text-outline-color: rgb(255, 93, 255);
+}
+
+.button-menu {
+    -unity-font-style: normal;
+    color: rgb(133, 221, 245);
+    flex-shrink: 1;
+    flex-wrap: nowrap;
+    flex-basis: auto;
+    -unity-text-align: middle-center;
+    flex-grow: 0;
+    font-size: 64px;
+    transition-property: rotate;
+    transition-duration: 1s;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    text-shadow: 5px 5px 0 rgb(0, 0, 0);
+    -unity-text-outline-color: rgb(176, 234, 250);
+    -unity-text-outline-width: 1px;
+    max-width: 500px;
+}
+
+.label-Title {
+    -unity-font-style: normal;
+    color: rgb(255, 255, 255);
+    flex-grow: 1;
+    font-size: 221px;
+    max-height: none;
+    align-self: auto;
+    -unity-text-align: lower-center;
+    -unity-font-definition: url("project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#LegacyRuntime");
+    text-shadow: 10px 7px 0 rgb(0, 0, 0);
+    -unity-text-outline-color: rgb(176, 234, 250);
+    -unity-text-outline-width: 1px;
+    text-overflow: clip;
+}
+
+.label-title-subscript {
+    -unity-font-style: normal;
+    color: rgb(255, 255, 255);
+    flex-grow: 1;
+    font-size: 50px;
+    max-height: 15%;
+    align-self: auto;
+    -unity-text-align: upper-center;
+    -unity-font-definition: url("project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#LegacyRuntime");
+    flex-shrink: 0;
+    text-shadow: 5px 5px 0 rgb(0, 0, 0);
+    -unity-text-outline-color: rgb(63, 15, 70);
+    -unity-text-outline-width: 1px;
+}
+
+.title-background {
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch;
+    align-items: center;
+    background-color: rgba(29, 18, 56, 0.24);
+}
+
+.titles-Container {
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    width: auto;
+    align-self: center;
+    flex-shrink: 0;
+    max-width: 100%;
+    min-width: 50%;
+}
+
+.title-row {
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    flex-shrink: 1;
+    min-width: 50%;
+    max-width: 100%;
+}
+
+.subtitle-row {
+    flex-grow: 1;
+    flex-direction: row;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.panel-background {
+    background-color: rgba(0, 0, 0, 0);
+    height: 80%;
+    width: 1920px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.button-menu:focus {
+    color: rgb(121, 0, 255);
+    transition-timing-function: ease-in-out-circ, ease-in-out-circ;
+    transition-duration: 0.5s, 0.5s;
+    background-color: rgba(75, 62, 98, 0);
+    transition-property: rotate, color;
+    rotate: 2deg;
+    -unity-text-outline-color: rgba(48, 0, 255, 0);
+}

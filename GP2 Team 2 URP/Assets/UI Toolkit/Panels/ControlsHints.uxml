@@ -1,0 +1,6 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/ControlsHints.uss?fileID=7433441132597879392&amp;guid=a877beee26176b74898f9705d6b6914c&amp;type=3#ControlsHints" />
+    <engine:VisualElement style="flex-grow: 1; align-self: stretch; justify-content: flex-end;">
+        <engine:VisualElement name="Row" style="flex-grow: 1; flex-direction: row; height: auto; max-height: 5%; justify-content: space-evenly; margin-bottom: 100px;" />
+    </engine:VisualElement>
+</engine:UXML>

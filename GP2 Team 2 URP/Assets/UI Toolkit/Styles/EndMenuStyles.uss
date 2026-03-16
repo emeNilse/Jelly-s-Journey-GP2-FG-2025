@@ -1,0 +1,100 @@
+.button-end-menu:focus {
+    background-color: rgba(93, 31, 71, 0);
+    color: rgb(255, 196, 242);
+    transition-timing-function: ease-out-elastic, ease-out-elastic;
+    transition-duration: 1s, 1s;
+    border-left-color: rgb(255, 196, 242);
+    border-right-color: rgb(255, 196, 242);
+    border-top-color: rgb(255, 196, 242);
+    border-bottom-color: rgb(255, 196, 242);
+    border-bottom-width: 2px;
+    border-left-width: 0;
+    border-right-width: 0;
+    transition-property: color, rotate;
+    border-top-width: 0;
+    rotate: 1deg;
+}
+.button-end-menu:hover {
+    background-color: rgba(93, 31, 71, 0);
+    color: rgb(255, 196, 242);
+    transition-timing-function: ease-out-elastic, ease-out-elastic;
+    transition-duration: 1s, 1s;
+    border-left-color: rgb(255, 196, 242);
+    border-right-color: rgb(255, 196, 242);
+    border-top-color: rgb(255, 196, 242);
+    border-bottom-color: rgb(255, 196, 242);
+    border-bottom-width: 2px;
+    border-left-width: 0;
+    border-right-width: 0;
+    transition-property: color, rotate;
+    border-top-width: 0;
+    rotate: 1deg;
+}
+
+.label-end-menu-title {
+    color: rgb(203, 49, 173);
+    font-size: 168px;
+    -unity-font-style: normal;
+    -unity-text-align: upper-center;
+    flex-grow: 1;
+    max-height: none;
+    max-width: 100%;
+    min-height: auto;
+    text-shadow: 10px 8px 0 rgb(0, 0, 0);
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgb(248, 137, 227);
+}
+
+.button-end-menu {
+    -unity-font-style: normal;
+    color: rgb(203, 49, 173);
+    background-color: rgba(87, 0, 0, 0);
+    height: auto;
+    flex-shrink: 1;
+    flex-wrap: nowrap;
+    flex-basis: auto;
+    -unity-text-align: middle-center;
+    flex-grow: 0;
+    max-height: none;
+    font-size: 72px;
+    align-self: stretch;
+
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    min-height: 100px;
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgb(255, 88, 222);
+    text-shadow: 5px 5px 0 rgb(0, 0, 0);
+    transition-property: rotate;
+    transition-duration: 1s;
+}
+
+.label-end-menu {
+    -unity-font-style: bold;
+    color: rgb(203, 49, 173);
+    flex-grow: 1;
+    font-size: 42px;
+    max-height: 25%;
+    margin-top: 4%;
+    margin-right: 4%;
+    margin-bottom: 4%;
+    margin-left: 4%;
+    align-self: auto;
+    -unity-text-align: upper-center;
+}
+
+.label-score {
+    color: rgb(203, 49, 173);
+    font-size: 40px;
+}
+
+.panel-background {
+    flex-grow: 0;
+    flex-direction: row;
+    height: 60%;
+    max-height: none;
+    min-height: 80%;
+    background-color: rgb(68, 24, 60);
+}

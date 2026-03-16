@@ -1,0 +1,76 @@
+#unity-tracker {
+    background-color: rgb(192, 46, 183);
+    border-left-color: rgb(121, 17, 118);
+    border-right-color: rgb(121, 17, 118);
+    border-top-color: rgb(121, 17, 118);
+    border-bottom-color: rgb(121, 17, 118);
+    height: 38%;
+    width: 100%;
+    flex-shrink: 0;
+    overflow: hidden;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+#unity-dragger {
+    background-color: rgb(255, 168, 253);
+    border-left-color: rgb(229, 135, 226);
+    border-right-color: rgb(229, 135, 226);
+    border-top-color: rgb(229, 135, 226);
+    border-bottom-color: rgb(229, 135, 226);
+    width: 4%;
+    height: 80%;
+}
+
+.label-settings-menu {
+    color: rgb(198, 97, 255);
+    font-size: 43px;
+    -unity-font-style: normal;
+    flex-grow: 1;
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+
+.label-settings-menu:hover {
+    color: white;
+}
+
+.slider-settings-menu {
+    padding-right: 2%;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-shrink: 1;
+    max-height: 60px;
+}
+
+.label-settings-menu:active {
+    color: black;
+}
+
+.label-Settings-Title {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+
+.button-pause-menu {
+    -unity-font-style: bold;
+    color: rgb(28, 21, 41);
+    border-left-color: rgb(75, 62, 98);
+    border-right-color: rgb(75, 62, 98);
+    border-top-color: rgb(75, 62, 98);
+    border-bottom-color: rgb(75, 62, 98);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    background-color: rgb(144, 127, 176);
+    height: auto;
+    flex-shrink: 1;
+    flex-wrap: nowrap;
+    flex-basis: auto;
+    -unity-text-align: middle-center;
+    flex-grow: 0;
+    max-height: none;
+    font-size: 24px;
+    align-self: stretch;
+}

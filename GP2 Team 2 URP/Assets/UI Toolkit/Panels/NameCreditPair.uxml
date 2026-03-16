@@ -1,0 +1,7 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Ui/UIToolkit/Styles/CreditsStyles.uss?fileID=7433441132597879392&amp;guid=2b231147a7ac01d4595d1190b69c1159&amp;type=3#CreditsStyles" />
+    <engine:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: space-between;">
+        <engine:Label text="Label" name="Name" class="label-credit-name" />
+        <engine:Label text="Label" name="Credit" class="label-credit-description" />
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,60 @@
+using UnityEngine;
+using UnityEngine.InputSystem;
+using System.Collections;
+using UnityEngine.EventSystems;
+using Unity.VisualScripting;
+
+public class PlayerPickUp : MonoBehaviour
+{
+    [SerializeField] float _detectionRange = 5f;
+    public LayerMask obstacleMask;
+    public GameObject closestWeapon;
+
+    protected PlayingState _updateState;
+    private void Start()
+    {
+        _updateState = GameManager.Instance.GetState<PlayingState>();
+
+
+    }
+
+    protected void OnDisable()
+    {
+        if (_updateState != null)
+        {
+            _updateState.StateUpdate.RemoveListener(ManagedUpdate);
+        }
+    }
+
+    protected void OnEnable()
+    {
+        if (_updateState != null)
+        {
+            _updateState.StateUpdate.AddListener(ManagedUpdate);
+        }
+        else
+        {
+            Debug.Log("tried to add listener but myUpdateState == null");
+        }
+    }
+
+    protected void ManagedUpdate()
+    {
+
+
+        Collider[] hits = Physics.OverlapSphere(transform.position, _detectionRange);
+        foreach (Collider hit in hits)
+        {
+            if (hit.CompareTag("Weapon"))
+            {
+                Vector3 direction = hit.transform.position - transform.position;
+                float distance = direction.magnitude;
+
+                if (!Physics.Raycast(transform.position, direction.normalized, distance, obstacleMask))
+                {
+                    closestWeapon = hit.gameObject;
+                }
+            }
+        }
+    }
+}

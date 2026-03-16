@@ -1,0 +1,19 @@
+.label-credit-role {
+    
+    color: rgb(255, 255, 255);
+    font-size: 42px;
+}
+
+.label-credit-name {
+    font-size: 28px;
+    color: rgb(133, 221, 245);
+    
+    -unity-font-style: normal;
+}
+
+.label-credit-description {
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    
+    -unity-font-style: normal;
+}

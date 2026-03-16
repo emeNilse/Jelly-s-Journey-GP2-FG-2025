@@ -1,0 +1,64 @@
+
+.label-Pause-Title {
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    flex-grow: 1;
+    font-size: 77px;
+    max-height: 30%;
+    margin-top: 4%;
+    margin-right: 4%;
+    margin-bottom: 0;
+    margin-left: 4%;
+    align-self: auto;
+    -unity-text-align: upper-center;
+}
+
+.button-pause-menu {
+    -unity-font-style: bold;
+    color: rgb(28, 21, 41);
+    border-left-color: rgb(75, 62, 98);
+    border-right-color: rgb(75, 62, 98);
+    border-top-color: rgb(75, 62, 98);
+    border-bottom-color: rgb(75, 62, 98);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    background-color: rgb(144, 127, 176);
+    height: auto;
+    flex-shrink: 1;
+    flex-wrap: nowrap;
+    flex-basis: auto;
+    -unity-text-align: middle-center;
+    flex-grow: 0;
+    max-height: none;
+    font-size: 24px;
+    align-self: stretch;
+}
+
+.button-pause-menu:hover {
+    background-color: rgb(75, 62, 98);
+    color: rgb(255, 255, 255);
+    border-left-color: rgb(185, 148, 255);
+    border-right-color: rgb(185, 148, 255);
+    border-top-color: rgb(185, 148, 255);
+    border-bottom-color: rgb(185, 148, 255);
+    transition-timing-function: ease-out-elastic;
+    transition-duration: 1s;
+}
+
+.button-pause-menu:focus {
+    background-color: rgb(75, 62, 98);
+    color: rgb(255, 255, 255);
+    border-left-color: rgb(185, 148, 255);
+    border-right-color: rgb(185, 148, 255);
+    border-top-color: rgb(185, 148, 255);
+    border-bottom-color: rgb(185, 148, 255);
+    transition-timing-function: ease-out-elastic;
+    transition-duration: 1s;
+}
+
+.button-pause-menu:active {
+    background-color: rgb(186, 148, 255);
+    color: rgb(0, 0, 0);
+}

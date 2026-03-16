@@ -1,0 +1,23 @@
+.label-control {
+    color: rgb(255, 255, 255);
+    font-size: 42px;
+    -unity-text-align: upper-right;
+}
+
+.image-control {
+    background-size: 50px 50px;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    max-height: 50px;
+    min-height: 50px;
+    min-width: 50px;
+    max-width: 50px;
+}
+
+.debug-buttons {
+    font-size: 41px;
+}
+
+.debug-buttons:focus {
+    background-color: rgb(137, 49, 101);
+}

@@ -1,0 +1,75 @@
+/***************************************************************************************
+ *                          FOLDER STRUCTURE AND STYLE GUIDES
+ ***************************************************************************************
+ *
+ * -------------------------------------------------------------------------------------
+ *                                  TABLE OF CONTENTS
+ * -------------------------------------------------------------------------------------
+ * - CHANGE LIST
+ * - FOLDER STRUCTURE AND RESPONSIBLE PARTIES
+ * - FILE NAMING
+ * - OTHER NOTES
+ * -------------------------------------------------------------------------------------
+ * =====================================================================================
+ * -------------------------------------------------------------------------------------
+ * 
+ * -------------------------------------------------------------------------------------
+ *                                      CHANGE LIST
+ * -------------------------------------------------------------------------------------
+ *      DATE                NAME                    CHANGE
+ *  12/01/2025          Briana Dempsey          Set up Template
+ * 
+ * 
+ * 
+ * 
+ * -------------------------------------------------------------------------------------
+ * +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ * -------------------------------------------------------------------------------------
+ * 
+ * -------------------------------------------------------------------------------------
+ *                      FOLDER STRUCTURE AND RESPONSIBLE PARTIES
+ * -------------------------------------------------------------------------------------
+ * - We need to decide on Naming conventions and folder structures within each subject area
+ * 
+ * - Art			for art assets, see Art/ArtStyleGuide.txt for further details
+ *				    the domain of art team
+ * - Audio			for audio assets, see Audio/AudioStyleGuide.txt for details
+ * 				    list team members responsible for audio here
+ * - Prefabs			for prefabs, see Prefabs/PrefabStyleGuide.txt 
+ *				    the domain of artists and designers.
+ * - Scenes			for scenes, see Scenes/SceneStyleGuide.txt for details
+ *				    all disciplines will need to test in scenes, take extra care
+ *				    to communicate here
+ * - Scripts			for code, see Scripts/CodeStyleGuide.cs 
+ *				    the domain of programming team
+ * - Settings			various visual, audio, and build settings live here
+ *				    list team members responsible for final project settings
+ * - Ui				for Ui data files etc. see Ui/UiStyleGuide for further details
+ *				    list team members responsible for ui here
+ * 
+ * -------------------------------------------------------------------------------------
+ * +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ * -------------------------------------------------------------------------------------
+ * 
+ * -------------------------------------------------------------------------------------
+ *                                      FILE NAMING
+ * -------------------------------------------------------------------------------------
+ * - Discipline specific naming conventions should be listed in their respective style 
+ *	guides
+ * - ???
+ * -------------------------------------------------------------------------------------
+ * +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ * -------------------------------------------------------------------------------------
+ * 
+ * -------------------------------------------------------------------------------------
+ *                                     OTHER NOTES
+ * ------------------------------------------------------------------------------------- 
+ *
+ * - An important note about Perforce: empty folders are not pushed to the server. 
+ * 	so for setting up initial folder structures you should include some kind of 
+ *	temp asset, either a copy of the relevant file naming style guide, or an empty .txt
+ *	are both very small files that will be easy to clean up later if we need to
+ *
+ ***************************************************************************************/
+
+

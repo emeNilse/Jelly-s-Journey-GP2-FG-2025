@@ -1,0 +1,7 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Ui/UIToolkit/Styles/ControlsHints.uss?fileID=7433441132597879392&amp;guid=a877beee26176b74898f9705d6b6914c&amp;type=3#ControlsHints" />
+    <engine:VisualElement name="ControlPair" style="flex-grow: 1; flex-direction: row; flex-wrap: nowrap; max-width: none; align-items: center;">
+        <engine:Label text="Label" name="ActionName" class="label-control" style="flex-shrink: 1; flex-grow: 1;" />
+        <engine:VisualElement name="Image" class="image-control" />
+    </engine:VisualElement>
+</engine:UXML>
